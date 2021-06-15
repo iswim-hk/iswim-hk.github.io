@@ -46,11 +46,13 @@ body, html {
 	left: 120px;;
 	text-align: justify;
 	text-justify: inter-word;
+	color: #ddd;
 }
 
 .g-dsc-title {
 	font-size: 35px;
 	font-weight: bold;
+	color: #ddd;
 }
 
 
