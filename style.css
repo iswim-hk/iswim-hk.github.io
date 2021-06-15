@@ -190,6 +190,50 @@ h1 img {
 	/*width: calc(50% - 10px);*/
 }
 
+.g-grid-desc {
+	max-width: 100%;
+	margin: 0 auto;
+	/*padding: 100px 16px;*/
+	margin-bottom: 900px;
+	margin-left: 16px;
+
+}
+
+.g-grid-column {
+	float: left;
+	width: 19%;
+	padding: 5px;
+	height: 900px; 
+	display: flex;
+border-style: dotted;
+	text-align: center;
+  }
+  .g-grid-desc .g-head{
+	max-width: 500px;
+	margin: 150 auto;
+	text-align: center;
+	font-size: 20px;
+	color: #2f5496;
+	font-weight: bold;
+}
+.g-demo-grid .g-a-img {
+width: 120px;
+height: 120px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+}
+
+.g-demo-grid .sub{
+	font-size: 15px;
+	color: #2f5496;
+	font-weight: bold;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
 @media screen and (max-width: 600px) {
 	.g-grid-item {
 		width: 100%;
