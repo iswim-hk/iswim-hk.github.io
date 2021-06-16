@@ -35,6 +35,100 @@ body, html {
 }
 
 
+.n-down {
+	float: left;
+	overflow: hidden;
+  }
+.n-down .n-btn {
+	font-size: 18px;    
+	border: none;
+	outline: none;
+	color:white;
+	padding: 12px 10px;
+	background-color: inherit;
+	border-radius: 6px;
+  }
+  
+  .n-sub-con {
+	display: none;
+	position: absolute;
+	border-radius: 6px;
+	
+  }
+  
+  .n-sub-con a {
+	float: none;
+	color: black;
+	padding: 12px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;	
+	border-radius: 6px;
+	border-color: lightskyblue;
+	border-style: solid;
+  }
+  
+  .n-down:hover .req-btn {
+	background-color: black;
+	color: white;
+  }
+
+  .nav a:hover, .n-down:hover .n-btn,.n-sub-con a:hover   {
+	background-color: white;
+	color: black;
+  }
+  /*
+  .n-sub-con a:hover {
+	background-color: white;
+	color: black;
+  }*/
+  
+  .n-down:hover .n-sub-con {
+	display: block;
+  }
+
+  @media screen and (max-width: 500px) {
+	.nav a:not(:first-child), .n-down .n-btn {
+	  display: none;
+	}
+	.nav a.icon {
+	  float: right;
+	  display: block;
+	 
+	}
+  }
+
+@media screen and (max-width: 500px) {
+	.nav.responsive {/*position: relative;*/
+	   width: 100%;
+		position: absolute;
+		top: 10px;	
+		right: 0px;
+		padding: 5px 8px 8px 8px;
+		font-size: 18px; 
+		/*background-color: grey;*/
+	}
+	.nav .responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.nav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: center;
+	}
+	.nav.responsive .n-down {float: none;}
+	.nav.responsive .n-sub-con {position: relative;}
+	.nav.responsive .n-down .n-btn {
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	}
+  }
+
+
+
 
 .g-hero {
 	text-align: center;
