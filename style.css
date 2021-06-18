@@ -27,11 +27,14 @@ body, html {
 	font-size: 18px;
   }
 
- .nav a.req-btn{
+ .nav .req-btn{
         background-color: #b3c6e7;
 	color:#000000;
 	border-radius: 3px;
-
+	padding: 12px 10px;
+	margin: 0;
+	border-radius: 6px;
+	outline: none;
 }
 
 
