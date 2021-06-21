@@ -29,6 +29,19 @@ function auto_display(){
     mainDiv.appendChild(botDiv); */
 }
 
+		document .querySelector(".openChatBtn") .addEventListener("click", openForm);
+		 document.querySelector(".close").addEventListener("click", closeForm);
+	  function openForm() {
+		 document.querySelector(".openChat").style.display = "block";
+		 document.querySelector(".g-chatroom").style.display = "block";
+		 document.querySelector(".openChatBtn").style.display = "none";
+	  }
+	  function closeForm() {
+		 document.querySelector(".openChat").style.display = "none";
+		 document.querySelector(".openChatBtn").style.display = "block";
+   
+	  }
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const inputField = document.getElementById("input")
